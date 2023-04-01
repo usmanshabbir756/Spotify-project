@@ -1,0 +1,2 @@
+# Spotify-project
+JavaScript practice
