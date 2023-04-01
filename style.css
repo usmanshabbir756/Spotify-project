@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 65px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 48px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.container{
+    min-height: 75vh;
+    display: flex;
+    padding: 34px;
+    margin: 34px auto;
+    background-color: black;
+    color: white;
+    width: 75vw;
+    border-radius: 12px;
+    background-image: url("bg.jpg");
+    background-size: contain;
+}
+h2{
+    font-size: xx-large;
+    margin-left: 12px;
+}
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom input{
+    width: 80vw;
+}
+
+.fa-2x{
+    margin: 10px;
+    cursor: pointer;
+}
+.songList{
+    width: 50%;
+}
+.songItemList{
+    padding-top: 34px;
+}
+.songItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 12px auto;
+}
+.songItem img{
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+    align-self: flex-start;
+    padding-right: 5px;
+}
+.timesong{
+    padding: 0 10px;
+}
+.timesong i{
+    padding: 5px;
+    cursor: pointer;
+}
+.namesong{
+    display: flex;
+    align-items: center;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-right: 5px;
+}
+
+
